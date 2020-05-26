@@ -1,0 +1,49 @@
+body {
+    background: url(/single_api/img/sylvain-mauroux-_Lz4b6ihgEg-unsplash.jpg);
+}
+
+.overlay {
+    min-height: 750px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    padding-top: 100px;
+}
+
+form {
+    border-radius: 0.5em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: seashell;
+}
+
+form h1 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #fff;
+}
+
+.form-group {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#results {
+    display: none;
+}
+
+#results .card {
+    background-color: slategrey;
+}
+
+#results .card h5 {
+    text-align: center;
+    color: #fff;
+}
+
+.spinner {
+    text-align: center;
+    display: none;
+}
